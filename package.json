@@ -12,6 +12,9 @@
     "dev-api": "concurrently \"vite\" \"json-server --watch database/db.json --port 5174\""
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.21",
     "concurrently": "^8.2.2",
     "json-server": "^1.0.0-beta.1",
     "react": "^18.3.1",

@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 20px 60px;
+  background-color: #EBF1FE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #8250df;
+}
+header a {
+  text-decoration: none;
+  color: #111;
+  opacity: 0.6;
+  margin-left: 50px;
+}
+header a:hover {
+  opacity: 1;
+}
+main {
+  padding: 20px 60px;
+}
+
+footer {
+  padding: 20px 60px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #19232D;
+}
